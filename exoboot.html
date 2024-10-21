@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>bootstrap</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Compagny</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Users</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Ruches</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Stats</a>
+                            </li>
+                        </ul>
+                        <span class="navbar-text">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Profile</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Log Out</a>
+                                </li>
+                            </ul>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container-fluid mt-4">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="https://placehold.co/200" alt="" width="100%">
+                            </div>
+                            <div class="col-9">
+                                <label for="basic-url" class="form-label">Template name</label>
+                                <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon3">enter your name</span>
+                                    <input type="text" class="form-control" id="basic-url"
+                                        aria-describedby="basic-addon3 basic-addon4">
+                                </div>
+                                <label for="basic-url" class="form-label">subject</label>
+                                <div class="input-group">
+                                    <span class="input-group-text" id="basic-addon3">enter subject</span>
+                                    <input type="text" class="form-control" id="basic-url"
+                                        aria-describedby="basic-addon3 basic-addon4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <label for="floatingTextarea">Comments</label>
+                                <textarea class="form-control" placeholder="Leave a comment here"
+                                    id="floatingTextarea"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="https://placehold.co/600x400
+                        " class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">thumbnail label</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ea,
+                                    adipisci, unde placeat numquam labore dicta voluptatem, nostrum pariatur ratione id
+                                    reprehenderit sapiente dolorum iure! Earum quasi eius officiis corporis.</p>
+                            </div>
+                            <div class="card-body">
+                                <button type="button" class="btn btn-primary">button1</button>
+                                <button type="button" class="btn btn-secondary">button2</button>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="dropdown">
+                            <p>Message type</p>
+                            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown button
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <br>
+                        <p>Send to group</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Top Management
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Marketing Department
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Designer Department
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Financial Department
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Suply Department
+                            </label>
+                        </div>
+                        <br>
+                        <div class="d-grid gap-2 d-md-block">
+                            <button class="btn btn-primary" type="button">Valider</button>
+                            <button class="btn btn-light" type="button">Annuler</button>
+                        </div>
+                    </div>
+                    <div class="col-4"></div>
+                    <div class="col-4">
+                        <div class="card">
+                            <label class="ms-3" for="floatingSelect">thumbnail label</label>
+                            <div class="form-floating ms-3">
+                                <select class="form-select" id="floatingSelect"
+                                    aria-label="Floating label select example">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                </select>
+                                <br>
+                                <p class="ms-4">Set Type</p>
+                                <div class="form-check">
+
+                                    <input class="form-check-input ms-0" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+                                    <span class="badge text-bg-primary">News</span>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input ms-0" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault2" checked>
+                                    <span class="badge text-bg-secondary">Reports</span>
+
+
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input ms-0" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault2" checked>
+                                    <span class="badge text-bg-warning">Documents</span>
+
+
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input ms-0" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault2" checked>
+                                    <span class="badge text-bg-danger">Media</span>
+
+
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input ms-0" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault2" checked>
+                                    <span class="badge text-bg-success">Text</span>
+                                    </label>
+                                </div>
+                                <br>
+                                <button type="button" class="btn btn-primary bg-danger ms-3 mb-2">Supprimer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br><br>
+        </main>
+</body>
+
+</html>
